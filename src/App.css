@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
 .App {
   text-align: center;
 }
@@ -29,4 +31,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color:  lightgray;
+  padding-right: 20px;
+}
+
+ul {
+  margin-left: 0%;
+  font-family: 'Merriweather', serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
