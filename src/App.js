@@ -17,6 +17,7 @@ class App extends Component {
             <a href="/social">social</a>
           </ul>
         </header>
+        <h1>katy welyczko dot com</h1>
         <img src={logo} className="App-logo" alt="logo" />
       </div>
     );
