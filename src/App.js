@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Social from './Social'
-import Resume from './Resume'
-import Home from './Home'
+import Social from './Social.js'
+import Resume from './Resume.js'
+import Home from './Home.js'
 import './animation.js'
 import './App.scss';
 
