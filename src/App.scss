@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 
+body {
+	background-color: #d7f4e6;
+	
+}
 .App {
-  text-align: center;
+	text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
+	
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,20 +23,12 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .nav {
   display: flex;
   flex-direction: row-reverse;
   background-color:  lightgray;
-  padding-right: 20px;
+	padding-right: 20px;
+	margin-bottom: 60px;
 }
 
 ul {
@@ -47,5 +38,35 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
+	color: white;
+	padding: 10px;
+}
+
+a:hover {
+	background: pink;
+	color: black;
+}
+
+
+.text-js{
+	opacity: 0;
+}
+.cursor{
+  display: block;
+  position: absolute;
+  height: 90%;
+  top: 0;
+  right: -5px;
+  width: 2px;
+  background-color: black;
+  z-index: 1;
+  animation: flash 0.5s none infinite alternate;
+}
+@keyframes flash{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
 }
