@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Social from '../src/Social'
-import Resume from '../src/Resume'
-import Home from '../src/Home'
+import Social from './Social.js'
+import Resume from './Resume.js'
+import Home from './Home.js'
 
 class App extends Component {
   render() {
