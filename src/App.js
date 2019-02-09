@@ -4,7 +4,7 @@ import Social from 'Social.js'
 import Resume from 'Resume.js'
 import Home from 'Home.js'
 import 'animation.js'
-import 'App.scss';
+import 'App.scss'
 
 class App extends Component {
   render() {
