@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './App.scss'
+import './animation.js'
+
 
 class Home extends React.Component {
     render() {
