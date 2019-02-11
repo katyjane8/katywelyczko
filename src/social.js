@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from '../src/Nav'
+import Nav from './Nav'
 
 class Social extends React.Component {
   render () {
