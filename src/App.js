@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import home from './home';
 import social from './social';
 import resume from './resume';
-import home from './home';
 
 class App extends Component {
   render() {
