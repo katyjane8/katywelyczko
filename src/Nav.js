@@ -8,13 +8,13 @@ class Nav extends React.Component {
             <div className="App">
                 <header className="nav">
                     <ul>
-                        <Link to="/">home</Link>
+                        <Link onClick={this.forceUpdate} to="/">home</Link>
                     </ul>
                     <ul>
-                        <Link to="/resume">resume</Link>
+                        <Link onClick={this.forceUpdate} to="/resume">resume</Link>
                     </ul>
                     <ul>
-                        <Link to="/social">social</Link>
+                        <Link onClick={this.forceUpdate} to="/social">social</Link>
                     </ul>
                 </header>
             </div>
