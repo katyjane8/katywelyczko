@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Social from 'Social.js';
-import Resume from './Resume.js';
-import Home from './Home.js';
+import social from './social.js';
+import resume from './resume.js';
+import home from './home.js';
 
 class App extends Component {
   render() {
     return (
       <Router>
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/social" component={Social} />
-          <Route path="/resume" component={Resume} />
+          <Route exact path="/" component={home} />
+          <Route path="/social" component={social} />
+          <Route path="/resume" component={resume} />
         </Switch>
       </Router>
     );
