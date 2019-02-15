@@ -1,14 +1,15 @@
 import React from 'react'
 import Nav from './Nav'
+import Counter from './components/Counter';
 
 class Resume extends React.Component {
     render() {
         return (
-            <div>
+            <div >
                 <Nav />
-                <h1>Resume PAGE</h1>
+                <Counter />
             </div>
-        );
+        )
     }
 }
 

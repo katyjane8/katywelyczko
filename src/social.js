@@ -6,7 +6,9 @@ class Social extends React.Component {
     return (
       <div>
         <Nav />
-        <h1>SOCIAL PAGE</h1>
+          <h1>
+          <a href="https://www.instagram.com/katyjane8/">INSTAGRAM</a>
+          </h1>
       </div>
     );
   }
