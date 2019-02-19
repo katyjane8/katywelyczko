@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Libre+Baskerville');
 
 body {
 	background-color: #d7f4e6;
@@ -68,5 +68,23 @@ a:hover {
   }
   100%{
     opacity: 0;
+  }
+}
+
+.resume-title { 
+  font-family: 'Libre Baskerville', serif;
+  text-align: center; 
+  margin: 50px;
+  h2 {
+  background-color: pink;
+  }
+  a {
+    background-color: grey;
+  }
+}
+
+.social-page { 
+  h1 {
+    text-align: center;
   }
 }

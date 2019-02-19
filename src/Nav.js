@@ -15,6 +15,9 @@ class Nav extends React.Component {
                     <ul>
                         <Link to="/social">social</Link>
                     </ul>
+                    <ul>
+                        <a href="https://github.com/katyjane8">github</a>
+                    </ul>
                 </header>
             </div>
         )
